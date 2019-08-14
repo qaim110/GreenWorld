@@ -1,0 +1,8 @@
+to deploy to aws server(or update)
+
+# NOTE: currently all the code is in a testing repository. It will be merged to this repository soon.
+
+RUN:
+pm2 deploy ecosystem.config.js production
+OR
+npm run-script deploy

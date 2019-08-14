@@ -1,0 +1,26 @@
+{
+  "name": "csc648-su19-Team06",
+  "version": "1.0.0",
+  "description": "## Please when ready add your teams application URL or IP to the repository description. This will help with grading. Teams are expected to keep this value up to date.",
+  "main": "index.js",
+  "dependencies": {
+    "pm2": "^3.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "restart": "pm2 startOrRestart ecosystem.config.js",
+    "deploy": "pm2 deploy ecosystem.config.js production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSC-648-SFSU/csc648-su19-Team06.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSC-648-SFSU/csc648-su19-Team06/issues"
+  },
+  "homepage": "https://github.com/CSC-648-SFSU/csc648-su19-Team06#readme"
+}
