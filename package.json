@@ -4,7 +4,7 @@
   "description": "## Please when ready add your teams application URL or IP to the repository description. This will help with grading. Teams are expected to keep this value up to date.",
   "main": "index.js",
   "dependencies": {
-    "pm2": "^3.5.1"
+    "pm2": "^5.2.2"
   },
   "devDependencies": {},
   "scripts": {
